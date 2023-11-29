@@ -1,12 +1,26 @@
 # Papers for Reference
 
-## CLIP
+## VLM
 
-### CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction
+### Transfering
 
-- ArXiv: https://arxiv.org/abs/2310.01403
-- Code: https://github.com/wusize/CLIPSelf
-- Core: Enhance the local region representation of CLIP for downstream open-vocabulary dense prediction tasks.
+* CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction | Size Wu, Wenwei Zhang, Lumin Xu, Sheng Jin, Xiangtai Li, Wentao Liu, Chen Change Loy
+    * Links: [arXiv:2310.01403](https://arxiv.org/abs/2310.01403) | [GitHub](https://github.com/wusize/CLIPSelf)
+    * Keypoints: Enhance the local region representation of CLIP for downstream open-vocabulary dense prediction tasks.
 
-> Open-vocabulary dense prediction tasks including object detection and image segmentation have been advanced by the success of Contrastive Language-Image Pre-training (CLIP). CLIP models, particularly those incorporating vision transformers (ViTs), have exhibited remarkable generalization ability in zero-shot image classification. However, **when transferring the vision-language alignment of CLIP from global image representation to local region representation for the open-vocabulary dense prediction tasks, CLIP ViTs suffer from the domain shift from full images to local image regions.** In this paper, we embark on an in-depth analysis of **the region-language alignment** in CLIP models, which is essential for downstream open-vocabulary dense prediction tasks. Subsequently, we propose an approach named CLIPSelf, which adapts the image-level recognition ability of CLIP ViT to local image regions without needing any region-text pairs. CLIPSelf empowers ViTs to distill itself by aligning a region representation extracted from its dense feature map with the image-level representation of the corresponding image crop. With the enhanced CLIP ViTs, we achieve new state-of-the-art performance on open-vocabulary object detection, semantic segmentation, and panoptic segmentation across various benchmarks.
+## Unified Architecture
 
+### Multi-Modal
+
+* TCSVT 2021 | SwinNet: Swin Transformer drives edge-aware RGB-D and RGB-T salient object detection | Zhengyi Liu, Yacheng Tan, Qian He, Yun Xiao
+    * Links: [arXiv:2204.05585](https://arxiv.org/abs/2204.05585) | [GitHub](https://github.com/liuzywen/SwinNet)
+    * Keypoints: Unified architecture and separate parameter for RGB-Depth/Thermal SOD.
+* TIP 2023 | CAVER: Cross-Modal View-Mixed Transformer for Bi-Modal Salient Object Detection | Youwei Pang, Xiaoqi Zhao, Lihe Zhang, Huchuan Lu
+    * Links: [arXiv:2112.02363](https://arxiv.org/abs/2112.02363) | [GitHub](https://github.com/lartpang/CAVER)
+    * Keypoints: Unified architecture and separate parameter for RGB-Depth/Thermal SOD.
+* All in One: RGB, RGB-D, and RGB-T Salient Object Detection | Xingzhao Jia, Zhongqiu Zhao, Changlei Dongye, Zhao Zhang
+    * Links: [arXiv:2311.14746](https://arxiv.org/abs/2311.14746)
+    * Keypoints: Unified architecture and separate parameter for RGB-RGB/Depth/Thermal SOD.
+* VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning | Ziyang Luo, Nian Liu, Wangbo Zhao, Xuguang Yang, Dingwen Zhang, Deng-Ping Fan, Fahad Khan, Junwei Han
+    * Links: [arXiv:2311.15011](https://arxiv.org/abs/2311.15011)
+    * Keypoints: Unified architecture and separate prompts for joint learning from RGB-RGB/Depth/Thermal/Flow SOD and RGB-RGB/Depth/Flow COD based on domain-specific and task-specific parameters (prompts).
