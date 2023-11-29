@@ -27,3 +27,9 @@
 * VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning | Ziyang Luo, Nian Liu, Wangbo Zhao, Xuguang Yang, Dingwen Zhang, Deng-Ping Fan, Fahad Khan, Junwei Han
     * Links: [arXiv:2311.15011](https://arxiv.org/abs/2311.15011)
     * Keypoints: Unified architecture and separate prompts for joint learning from RGB-RGB/Depth/Thermal/Flow SOD and RGB-RGB/Depth/Flow COD based on domain-specific and task-specific parameters (prompts).
+
+### Multi-Pipeline
+
+* ZoomNeXt: A Unified Collaborative Pyramid Network for Camouflaged Object Detection | Youwei Pang, Xiaoqi Zhao, Tian-Zhu Xiang, Lihe Zhang, Huchuan Lu
+    * Links: [arXiv:2310.20208](https://arxiv.org/abs/2310.20208) | [GitHub](https://github.com/lartpang/ZoomNeXt)
+    * Keypoints: Unified architecture and separate parameter for RGB image/sequence COD based on the difference-based conditional computation.
