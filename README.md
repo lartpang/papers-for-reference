@@ -18,6 +18,9 @@
 * TIP 2023 | CAVER: Cross-Modal View-Mixed Transformer for Bi-Modal Salient Object Detection | Youwei Pang, Xiaoqi Zhao, Lihe Zhang, Huchuan Lu
     * Links: [arXiv:2112.02363](https://arxiv.org/abs/2112.02363) | [GitHub](https://github.com/lartpang/CAVER)
     * Keypoints: Unified architecture and separate parameter for RGB-Depth/Thermal SOD.
+* ComPtr: Towards Diverse Bi-source Dense Prediction Tasks via A Simple yet General Complementary Transformer | Youwei Pang, Xiaoqi Zhao, Lihe Zhang, Huchuan Lu
+    * Links: [arXiv:2307.12349](https://arxiv.org/abs/2307.12349) | [GitHub](https://github.com/lartpang/ComPtr)
+    * Keypoints: Unified architecture and separate parameter for RGB-RGB Remote Sensing Change Detection, RGB-Thermal Crowd Counting, RGB-Depth/Thermal SOD, and RGB-Depth Semantic Segmentation.
 * All in One: RGB, RGB-D, and RGB-T Salient Object Detection | Xingzhao Jia, Zhongqiu Zhao, Changlei Dongye, Zhao Zhang
     * Links: [arXiv:2311.14746](https://arxiv.org/abs/2311.14746)
     * Keypoints: Unified architecture and separate parameter for RGB-RGB/Depth/Thermal SOD.
