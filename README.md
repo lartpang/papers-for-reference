@@ -29,6 +29,10 @@
     * Authors: Xingzhao Jia, Zhongqiu Zhao, Changlei Dongye, Zhao Zhang
     * Links: [arXiv:2311.14746](https://arxiv.org/abs/2311.14746)
     * Keypoints: Unified architecture and separate parameter for RGB-RGB/Depth/Thermal SOD.
+* Unified-modal Salient Object Detection via Adaptive Prompt Learning
+    * Authors: Kunpeng Wang, Chenglong Li, Zhengzheng Tu, Bin Luo
+    * Links: [arXiv:2311.16835](https://arxiv.org/abs/2311.16835)
+    * Keypoints: ???
 * VSCode: General Visual Salient and Camouflaged Object Detection with 2D Prompt Learning
     * Authors: Ziyang Luo, Nian Liu, Wangbo Zhao, Xuguang Yang, Dingwen Zhang, Deng-Ping Fan, Fahad Khan, Junwei Han
     * Links: [arXiv:2311.15011](https://arxiv.org/abs/2311.15011)
